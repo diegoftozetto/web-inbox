@@ -1,0 +1,209 @@
+body {
+  	width: 100%;
+  	height: 100%;
+ 	 margin: 0px auto;
+  	background-color: #e4e1df;
+  	font-family: monospace, Times, serif;
+}
+
+/* DIV CABECALHO */
+#dvCabecalho{
+  	width: 100%;
+  	height: 40px;
+  	background-color: #0082C8;
+}
+
+#dvCabecalho img{
+	width: 30px;
+	height: 30px;
+	margin: 2px 0px 0px 5px;
+}
+
+#dvCabecalho input{
+	padding: 5px 5px 5px 5px;
+	border: 0px #CCC solid;
+	border-radius: 3px;
+	width: 240px;
+	margin-left: 15px;
+}
+
+/* DIV MENU CABECALHO */
+#dvMenuCabecalho{
+  	width: 100%;
+  	height: 50px;
+  	background-color: #EEEEEE;
+	border-bottom: 1px #CCC solid;
+}
+
+#tdNovaMensagem{
+	width: 250px;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+
+#btnNovaMensagem{
+	padding: 8px;
+	border: 0px #CCC solid;
+	background-color: #e1e1e1;
+	border-radius: 4px;
+}
+
+#btnNovaMensagem:hover{
+	cursor: pointer;
+  	background-color: #CCC;
+}
+
+#btnNovaMensagem:focus{
+	cursor: pointer;
+  	outline-style: none;
+}
+
+#tdItemMenu{
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+/* DIV MENU LABERAL */
+#dvMenuLateral{
+  	width: 250px;
+  	height: 90%;
+  	background-color: #EEEEEE;
+  	position:absolute;
+}
+
+#dvMenuLateral table{
+	width: 250px;
+}
+
+#dvMenuLateral img{
+	width: 20px;
+	height: 20px;
+}
+
+#dvMenuLateral table tr:nth-child(2n){
+	background-color: #FF6600;
+}
+
+#dvMenuLateral table tr:nth-child(2n+1){
+	background-color: #EE5500;
+}
+
+#dvMenuLateral table td{
+	padding: 5px 0px 5px 5px;
+	font-family: monospace, Times, serif;
+	font-size: 16px;
+}
+
+#dvMenuLateral table tr:hover{
+	background-color: white;
+	cursor: pointer;
+}
+
+/* DIV MENU CONTEUDO */
+#dvConteudo{ 	
+  	margin-left:250px;
+  	background-color: #e4e1df;
+}
+
+/* CLASS*/
+.dvEsconde{
+  	display: none;
+}
+
+/* DIV NOVA MENSAGEM */
+#dvNovaMensagem{
+	padding-top: 40px;
+}
+
+#dvNovaMensagem input{
+  	border: 2px #CCC solid;
+  	width: 405px;
+  	padding: 10px;
+  	border-radius: 3px;
+  	margin: 5px 0px 5px 10px;
+}
+
+#dvNovaMensagem textarea{
+  	border: 2px #CCC solid;
+  	width: 490px;
+  	padding: 10px;
+  	border-radius: 3px;
+  	margin-top: 5px;
+  	resize: none;
+}
+
+#trButton{
+  	text-align: right;
+}
+
+#btnEnviar{
+  	border: 1px #000 solid;
+  	padding: 5px;
+  	width: 120px;
+  	height: 30px;
+  	background-color: #004e78;
+  	color: white;
+  	font-size: 14px;
+}
+
+#btnEnviar:hover{
+  	cursor: pointer;
+  	outline-style: none;
+  	background-color: #0068a0;
+}
+
+.erro::placeholder{
+	color:red;
+}
+
+/* Table do Append */
+.tdEmail{
+	vertical-align:middle;
+	background-color: white;
+	border-bottom: 1px #CCC solid;
+	padding: 5px;
+}
+
+	/* Imagem*/
+#tdImg{
+	width: 2%;
+}
+
+#tdImg img{
+	width: 20px;
+	height: 20px;	
+}
+	
+	/* Para*/
+#tdPara{
+	width: 15%;
+	text-align: left;
+}
+
+	/* Assunto*/
+#tdAssunto{
+	padding-left: 15px;
+	width: 20%;
+	text-align: left;
+}
+
+	/* Texto*/
+#tdTexto{
+	padding-left: 10px;
+	width: 52%;
+	text-align: left;
+}
+
+	/* Botão Remover*/
+#tdBtnRemover{
+	text-align: center;
+}
+
+#btnRemover{
+	padding: 5px;
+	border: 1px #CCC solid;
+	background-color: red;
+	color: white;
+	font-family: monospace, Times, serif;
+}
+

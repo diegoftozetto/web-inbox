@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="../js/scriptEmail.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/styleEmail.css">	
+		<title>E-mail</title>
+	</head>
+	<body>
+		<div id="dvCabecalho">
+			<table cellspacing="0">
+				<tr>
+					<td>
+						<img src="../img/ic_drawer.png">
+					</td>
+					<td>
+						<input type="text" placeholder="Pesquisar">
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="dvMenuCabecalho">
+			<table cellspacing="0">
+				<tr>
+					<td id="tdNovaMensagem">
+						<button id="btnNovaMensagem">+ Nova Mensagem</button>
+					</td>
+					<td id="tdItemMenu">
+						Caixa de Entrada
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="dvMenuLateral">
+			<table cellspacing="0">
+				<tr>
+					<td>
+						<img src="../img/ic_drawer.png" id="imgDrawerLateral">
+					</td>
+					<td>
+						Favoritos
+					</td>
+				</tr>
+				<tr id="trCaixaEntrada">
+					<td>
+						<img src="../img/ic_drawer.png" id="imgDrawerLateral">
+					</td>
+					<td>
+						Caixa de Entrada
+					</td>
+				</tr>
+				<tr id="trNovo">
+					<td>
+						<img src="../img/ic_drawer.png" id="imgDrawerLateral">
+					</td>
+					<td>
+						Novo
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="../img/ic_drawer.png" id="imgDrawerLateral">
+					</td>
+					<td>
+						Lixo Eletrônico
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="../img/ic_drawer.png" id="imgDrawerLateral">
+					</td>
+					<td>
+						Rascunho
+					</td>
+				</tr>
+				<tr id="trItensEnviados">
+					<td>
+						<img src="../img/ic_drawer.png" id="imgDrawerLateral">
+					</td>
+					<td>
+						Itens Enviados
+					</td>
+				</tr>
+				<tr id="trItensExcluidos">
+					<td>
+						<img src="../img/ic_drawer.png" id="imgDrawerLateral">
+					</td>
+					<td>
+						Itens Excluidos
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="../img/ic_drawer.png" id="imgDrawerLateral">
+					</td>
+					<td>
+						Arquivo Morto
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="dvConteudo">
+			<center>
+				<div id="dvNovaMensagem" class="dvEsconde">
+					<table cellspacing="0">
+						<tr>
+							<td>
+								Para:
+							</td>
+							<td>
+								<input type="text" placeholder="E-mail que receberá a nova mensagem" id="inPara">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Cc:
+							</td>
+							<td >
+								<input type="text" placeholder="E-mail em cópia" id="inCc">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								M1:
+							</td>
+							<td >
+								<input type="text" placeholder="Mensagem 1" id="inM1">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								M2:
+							</td>
+							<td >
+								<input type="text" placeholder="Mensagem 2" id="inM2">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Assunto:
+							</td>
+							<td>
+								<input type="text" placeholder="Texto do assunto do e-mail" id="inAssunto">
+							</td>
+						</tr>
+						<tr >
+							<td >
+								Texto:
+							</td>
+
+						</tr>
+
+						<tr>
+							<td colspan="2">
+								<textarea rows="15" id="inTexto" placeholder="Informe aqui o texto que deseja enviar..."></textarea>
+							</td>
+						</tr>
+						<tr id="trButton">
+							<td colspan="2" >
+								<button id="btnEnviar">Enviar </button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</center>
+
+			<div id="dvListaConteudo">
+				<table></table>
+			</div>
+		</div>
+	</body>
+</html>

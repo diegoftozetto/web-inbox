@@ -1,0 +1,80 @@
+/* HTML */
+body{
+	background-image: url('../img/img_background.jpg');
+}
+
+/* Id */
+#imgLogin{
+	display: block;
+	margin: 10px auto 0px auto;
+	width: 90px;
+	height: 90px;
+}
+
+#tdUsuario{
+	padding: 20px 0px 5px 2px;
+	font-family: monospace;
+	color: #7b6c63;
+	font-size: 15px;
+}
+
+#tdSenha{
+	padding: 15px 0px 5px 2px;
+	font-family: monospace;
+	font-size: 15px;
+	color: #7b6c63;
+}
+
+#btnEntrar{
+	margin-top: 20px;
+	margin-left: 5px;
+	width: 425px;
+	height: 40px;
+	border: 1px solid #78BBD8;
+	background-color: #51a3a3;
+	color: white;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#btnEntrar:hover{
+	background-color: #489292;
+}
+
+#btnEntrar:focus{
+	outline-style: none;
+}
+
+#dvBox {
+	border: 2px solid #78BBD8;
+  	background-color: #FFF;
+	padding: 5px;
+  	border-radius: 28px;
+	margin: 180px auto 0px auto;
+	width: 437px;
+	height: 340px;
+}
+
+/* Class */
+.in:focus{
+	outline-style: none;
+	border-color: #487081;
+}
+
+.in::placeholder{
+	color: #E0E0E0;
+}
+
+.in{
+	border: 1px solid #78BBD8;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.erro{
+	border-color: red;
+}
+
+.erro::placeholder{
+  	color:red;
+}
